@@ -31,6 +31,30 @@ This will link to [github][1]
 
 this will link to [Twitter][Twit]
 
+images are similar to links, a bang immediately precedes the square brackets. 
+
+## Lists
+
+### Ordered lists can be created with
+
++ plus sign
+- minus or dash
+* or an asterisk
+
+### Steps
+
+1. Should be created
+   * nested lists/images/links have the same rules as top level equals. Bullet points are defined by css at this level.
+
+    this is a new paragraph nested in the first step.
+
+2. with just the number
+3. one as the parser
+4. will figure out the numbers for you.
+
+
+
+
 
 [1]: http://github.com
 [Twit]: http://twitter.com
