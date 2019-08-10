@@ -52,8 +52,30 @@ images are similar to links, a bang immediately precedes the square brackets.
 3. one as the parser
 4. will figure out the numbers for you.
 
+### Code Blocks
 
+Indent lines to create a code block:
 
+    let x = 1000;
+    const dog = 'Bosco';
+
+Wrap the text with three back ticks, and name the language after the first set to create language specific blocks
+
+```js
+$age = 37;
+$name = "eric";
+echo strtoupper($name);
+```
+
+### Tables
+
+This wont work everywhere, add pipes around everything you ant to be a table
+
+|Dogs Name| Dogs Age|
+|:--------|:--------|:--------|
+|Bosco|6|
+|Olive|5|
+|Tippy|13|
 
 
 [1]: http://github.com
